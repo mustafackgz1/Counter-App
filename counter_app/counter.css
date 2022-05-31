@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    text-align: center;
+    margin: 200px 0;
+    background-image: url(./subway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    padding-bottom: 5px;
+    font-size: 60px;
+    color: #fff;
+}
+h2{
+    font-size: 75px;
+    color: #fff;
+}
+
+.increment-btn{
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    background-color: rgba(32, 87, 19, 0.667);
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #fff;
+
+}
+
+.save-btn{
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    background-color: rgba(38, 71,   216, 0.667);
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #fff;
+
+}
+
+.reset-btn{
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    background-color: rgba(223, 16, 16, 0.667);
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #fff;
+
+}
+
+p{
+    color: #fff;
+    font-size: 35px;
+    padding-top: 15px;
+}
+.prev {
+    padding-top: 15px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
